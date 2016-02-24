@@ -1,0 +1,141 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'hexo-deployer-git',
+1 verbose cli   '–save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'hexo-deployer-git', null ]
+6 verbose cache add name=undefined spec="hexo-deployer-git" args=["hexo-deployer-git",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'hexo-deployer-git',
+7 verbose parsed url   path: 'hexo-deployer-git',
+7 verbose parsed url   href: 'hexo-deployer-git' }
+8 verbose cache add [ '–save', null ]
+9 verbose cache add name=undefined spec="–save" args=["–save",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: '–save',
+10 verbose parsed url   path: '–save',
+10 verbose parsed url   href: '–save' }
+11 silly lockFile f69179ae-hexo-deployer-git hexo-deployer-git
+12 verbose lock hexo-deployer-git /Users/wilson/.npm/f69179ae-hexo-deployer-git.lock
+13 silly lockFile 38d7024e-save –save
+14 verbose lock –save /Users/wilson/.npm/38d7024e-save.lock
+15 silly lockFile f69179ae-hexo-deployer-git hexo-deployer-git
+16 silly lockFile f69179ae-hexo-deployer-git hexo-deployer-git
+17 silly lockFile 38d7024e-save –save
+18 silly lockFile 38d7024e-save –save
+19 verbose addNamed [ 'hexo-deployer-git', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile 838867dc-hexo-deployer-git hexo-deployer-git@
+22 verbose lock hexo-deployer-git@ /Users/wilson/.npm/838867dc-hexo-deployer-git.lock
+23 verbose addNamed [ '–save', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile 0fa5ff4a-save –save@
+26 verbose lock –save@ /Users/wilson/.npm/0fa5ff4a-save.lock
+27 silly addNameRange { name: 'hexo-deployer-git', range: '*', hasData: false }
+28 silly addNameRange { name: '–save', range: '*', hasData: false }
+29 verbose request where is /hexo-deployer-git
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id f2cfa8eb74cd7445
+32 verbose url raw /hexo-deployer-git
+33 verbose url resolving [ 'https://registry.npmjs.org/', './hexo-deployer-git' ]
+34 verbose url resolved https://registry.npmjs.org/hexo-deployer-git
+35 verbose request where is https://registry.npmjs.org/hexo-deployer-git
+36 info trying registry request attempt 1 at 23:27:08
+37 http GET https://registry.npmjs.org/hexo-deployer-git
+38 verbose request where is /–save
+39 verbose request registry https://registry.npmjs.org/
+40 verbose url raw /–save
+41 verbose url resolving [ 'https://registry.npmjs.org/', './%E2%80%93save' ]
+42 verbose url resolved https://registry.npmjs.org/%E2%80%93save
+43 verbose request where is https://registry.npmjs.org/%E2%80%93save
+44 info trying registry request attempt 1 at 23:27:08
+45 http GET https://registry.npmjs.org/%E2%80%93save
+46 http 404 https://registry.npmjs.org/%E2%80%93save
+47 silly registry.get cb [ 404,
+47 silly registry.get   { 'content-type': 'application/json',
+47 silly registry.get     'cache-control': 'max-age=0',
+47 silly registry.get     'content-length': '69',
+47 silly registry.get     'accept-ranges': 'bytes',
+47 silly registry.get     date: 'Wed, 24 Feb 2016 15:27:09 GMT',
+47 silly registry.get     via: '1.1 varnish',
+47 silly registry.get     age: '0',
+47 silly registry.get     connection: 'keep-alive',
+47 silly registry.get     'x-served-by': 'cache-nrt6123-NRT',
+47 silly registry.get     'x-cache': 'MISS',
+47 silly registry.get     'x-cache-hits': '0',
+47 silly registry.get     'x-timer': 'S1456327629.175526,VS0,VE140' } ]
+48 silly lockFile 0fa5ff4a-save –save@
+49 silly lockFile 0fa5ff4a-save –save@
+50 http 200 https://registry.npmjs.org/hexo-deployer-git
+51 silly registry.get cb [ 200,
+51 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+51 silly registry.get     etag: '"4AJV7GPK69L4GZIXAZPV6G7T8"',
+51 silly registry.get     'content-type': 'application/json',
+51 silly registry.get     'cache-control': 'max-age=300',
+51 silly registry.get     'content-length': '9176',
+51 silly registry.get     'accept-ranges': 'bytes',
+51 silly registry.get     date: 'Wed, 24 Feb 2016 15:27:10 GMT',
+51 silly registry.get     via: '1.1 varnish',
+51 silly registry.get     age: '0',
+51 silly registry.get     connection: 'keep-alive',
+51 silly registry.get     'x-served-by': 'cache-nrt6120-NRT',
+51 silly registry.get     'x-cache': 'HIT',
+51 silly registry.get     'x-cache-hits': '1',
+51 silly registry.get     'x-timer': 'S1456327629.585132,VS0,VE567',
+51 silly registry.get     vary: 'Accept' } ]
+52 silly addNameRange number 2 { name: 'hexo-deployer-git', range: '*', hasData: true }
+53 silly addNameRange versions [ 'hexo-deployer-git',
+53 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.1.0' ] ]
+54 verbose addNamed [ 'hexo-deployer-git', '0.1.0' ]
+55 verbose addNamed [ '0.1.0', '0.1.0' ]
+56 silly lockFile 999dd1e1-hexo-deployer-git-0-1-0 hexo-deployer-git@0.1.0
+57 verbose lock hexo-deployer-git@0.1.0 /Users/wilson/.npm/999dd1e1-hexo-deployer-git-0-1-0.lock
+58 silly lockFile a4a08f53--git-hexo-deployer-git-0-1-0-tgz https://registry.npmjs.org/hexo-deployer-git/-/hexo-deployer-git-0.1.0.tgz
+59 verbose lock https://registry.npmjs.org/hexo-deployer-git/-/hexo-deployer-git-0.1.0.tgz /Users/wilson/.npm/a4a08f53--git-hexo-deployer-git-0-1-0-tgz.lock
+60 verbose addRemoteTarball [ 'https://registry.npmjs.org/hexo-deployer-git/-/hexo-deployer-git-0.1.0.tgz',
+60 verbose addRemoteTarball   '8fdd061fa777a8e53fab8b5e0aca28f906622c21' ]
+61 info retry fetch attempt 1 at 23:27:10
+62 verbose fetch to= /tmp/npm-3596-kTJQDYJl/registry.npmjs.org/hexo-deployer-git/-/hexo-deployer-git-0.1.0.tgz
+63 http GET https://registry.npmjs.org/hexo-deployer-git/-/hexo-deployer-git-0.1.0.tgz
+64 http 200 https://registry.npmjs.org/hexo-deployer-git/-/hexo-deployer-git-0.1.0.tgz
+65 silly lockFile a4a08f53--git-hexo-deployer-git-0-1-0-tgz https://registry.npmjs.org/hexo-deployer-git/-/hexo-deployer-git-0.1.0.tgz
+66 silly lockFile a4a08f53--git-hexo-deployer-git-0-1-0-tgz https://registry.npmjs.org/hexo-deployer-git/-/hexo-deployer-git-0.1.0.tgz
+67 silly lockFile 999dd1e1-hexo-deployer-git-0-1-0 hexo-deployer-git@0.1.0
+68 silly lockFile 999dd1e1-hexo-deployer-git-0-1-0 hexo-deployer-git@0.1.0
+69 silly lockFile 838867dc-hexo-deployer-git hexo-deployer-git@
+70 silly lockFile 838867dc-hexo-deployer-git hexo-deployer-git@
+71 error 404 Not Found
+71 error 404
+71 error 404 '–save' is not in the npm registry.
+71 error 404 You should bug the author to publish it
+71 error 404 It was specified as a dependency of 'hexo-site'
+71 error 404
+71 error 404 Note that you can also install from a
+71 error 404 tarball, folder, or http url, or git url.
+72 error System Darwin 15.3.0
+73 error command "node" "/usr/local/bin/npm" "install" "hexo-deployer-git" "–save"
+74 error cwd /Users/wilson/Documents/myblog/hengwan
+75 error node -v v0.10.35
+76 error npm -v 1.4.28
+77 error code E404
+78 verbose exit [ 1, true ]
